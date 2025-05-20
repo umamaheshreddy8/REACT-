@@ -1,0 +1,72 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-card {
+  background-color: #1e1e1e;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+  max-width: 400px;
+  width: 100%;
+  color: #ffffff;
+}
+
+.form-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-card input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 12px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  background-color: #2c2c2c;
+  color: #fff;
+  font-size: 14px;
+}
+
+.form-card button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background-color: #1a73e8;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-card button:hover {
+  background-color: #1558b0;
+}
+
+.form-card p {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.toggle {
+  color: #4dabf7;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.toggle:hover {
+  text-decoration: underline;
+}
+
+.error {
+  background-color: #ff4d4d;
+  color: white;
+  padding: 10px
+}
